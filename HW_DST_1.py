@@ -6,7 +6,7 @@ import numpy as np
 
 links = []
 
-for page in range(8,10):
+for page in range(1,10):
     url = f'https://www.kinopoisk.ru/lists/top250/?page={str(page)}&sort=popularity&tab=all'
     r = requests.get(url)
     sleep(60)
